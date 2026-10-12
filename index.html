@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Developer Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 24px 8%;
+      background: #111c33;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    header a, .links a {
+      color: #38bdf8;
+      text-decoration: none;
+      margin-right: 14px;
+    }
+
+    section {
+      padding: 55px 8%;
+    }
+
+    h1 {
+      font-size: clamp(32px, 5vw, 52px);
+      color: #38bdf8;
+    }
+
+    h2 {
+      margin-bottom: 18px;
+      color: #38bdf8;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 22px;
+      border-radius: 12px;
+      margin: 14px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      background: #111c33;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>My Portfolio</strong>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h1>Hi, I'm Your Name 👋</h1>
+    <p>BTech AI & Data Science Student | Aspiring Developer</p>
+    <p>I enjoy building projects and solving programming problems.</p>
+    <p class="links">
+      <a href="https://github.com/YOUR-USERNAME">GitHub</a>
+      <a href="https://www.linkedin.com/">LinkedIn</a>
+    </p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a BTech student interested in software development,
+      Python programming, databases, and web technologies.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      Python · MySQL · HTML · CSS · JavaScript · Tkinter
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="card">
+      <h3>Dynamic GUI-Based MySQL CRUD System</h3>
+      <p>A Python Tkinter application to manage database records.</p>
+    </div>
+    <div class="card">
+      <h3>Internship Project</h3>
+      <p>A keyword-search tool for HTML files with date filters
+      and threshold-based matching.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: your-email@example.com</p>
+    <p class="links">
+      <a href="https://github.com/YOUR-USERNAME">GitHub Profile</a>
+      <a href="https://www.linkedin.com/">LinkedIn Profile</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2026 Your Name | Developer Portfolio
+  </footer>
+</body>
+</html>
